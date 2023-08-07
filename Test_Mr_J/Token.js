@@ -1,0 +1,1 @@
+export const mathtoken ="https://opentdb.com/api.php?amount=10&category=19&type=boolean"
