@@ -1,15 +1,15 @@
 import { createSlice,PayloadAction } from "@reduxjs/toolkit"
 
-const type = createSlice({
-  name: "type",
+const typer = createSlice({
+  name: "typer",
   initialState: {
-    type: 0
+    typer: 0
   },
   reducers: {
     setType(state, action) {
-        state.message = action.payload
+        state.typer = action.payload
   }
 }
 })
-export const { setType } = type.actions
-export default type.reducer
+export const { setType } = typer.actions
+export default typer.reducer
